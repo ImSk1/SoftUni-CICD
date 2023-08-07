@@ -26,7 +26,7 @@ jobs:
       run: npm install
       
     - name: Start the app
-      run: npm start
+      run: npm start &
 
     - name: Test the app
       run: npm test
